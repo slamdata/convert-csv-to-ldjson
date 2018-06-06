@@ -2,7 +2,7 @@
   "name": "convert-csv-to-ldjson",
   "version": "1.0.0",
   "description": "Converts CSV files to line deliminated JSON",
-  "main": "convert-csv-to-json.js",
+  "main": "convert-csv-to-ldjson.js",
   "dependencies": {
     "convert-csv-to-json": "^0.0.13",
     "event-stream": "^3.3.4",
