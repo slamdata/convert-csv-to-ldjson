@@ -1,0 +1,30 @@
+{
+  "name": "convert-csv-to-ldjson",
+  "version": "1.0.0",
+  "description": "Converts CSV files to line deliminated JSON",
+  "main": "convert-csv-to-json.js",
+  "dependencies": {
+    "convert-csv-to-json": "^0.0.13",
+    "event-stream": "^3.3.4",
+    "papaparse": "^4.5.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/slamdata/convert-csv-to-ldjson.git"
+  },
+  "keywords": [
+    "ldjson",
+    "csv",
+    "node"
+  ],
+  "author": "Becky Conning",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/slamdata/convert-csv-to-ldjson/issues"
+  },
+  "homepage": "https://github.com/slamdata/convert-csv-to-ldjson#readme"
+}
