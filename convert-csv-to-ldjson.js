@@ -5,6 +5,6 @@ x.parse(fs.createReadStream(process.argv[2]), {
   delimiter: ",",
   header: true,
   step: function(results) {
-    console.log(JSON.stringify(results.data[0]) + "\n");
+    process.stdout.write(JSON.stringify(results.data[0]) + "\n");
   }
 });
